@@ -1,2 +1,2 @@
-ci: *.swift
-	swiftc *.swift -o ci
+ci: *.swift */*.swift
+	swiftc *.swift */*.swift -o ci
