@@ -1,1 +1,1 @@
-swiftc $(find . -name "*.swift") -o ci
+swiftc $(find ./src/ -name "*.swift") -o ci
